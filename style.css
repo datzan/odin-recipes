@@ -15,7 +15,11 @@
     height: auto;
   }
 
-  h1, h2 {
+  img.recipe {
+    border: 3px solid orange;
+  }
+
+  h1, h2, h3 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 1.5rem 0 0.5rem 0;
     font-size: 40px;
@@ -26,6 +30,20 @@
     margin-bottom: 0.7rem;
   }
 
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    line-height: 1.2rem;
+    display: inline-block;
+    max-width: 80%;
+    margin-bottom: 0.4rem;
+  }  
+  
+  li {
+    margin-bottom: 0.4rem;
+  }
   a:link, a:visited, a:hover, a:active {
     display: inline-block;
     color: rgb(0, 0, 0);
@@ -62,6 +80,30 @@
   .container.recipe {
     background-color: darksalmon;
     border-radius: 20% 30% 15% 34%;
-
   }
 
+  .footer {
+    background-color: olive;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .description {
+    background-color: rgb(247, 235, 189);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .ingredients {
+    background-color: rgba(255, 127, 80, 0.525);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .instructions {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: darkseagreen;
+  }
+
+  

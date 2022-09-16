@@ -1,0 +1,67 @@
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid red; */
+  }
+
+  body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: seashell;
+}
+
+  img {
+    width: 80%;
+    height: auto;
+  }
+
+  h1, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1.5rem 0 0.5rem 0;
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+    margin-bottom: 0.7rem;
+  }
+
+  a:link, a:visited, a:hover, a:active {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  a:hover {
+    color: darksalmon;
+    background-color: indianred;
+    border-radius: 5px;
+  }
+  
+  a:active {
+    color: black;
+  }
+
+  .presentation {
+    display: inline-block;
+    max-width: 70%;
+  }
+
+  .presentation.p2 {
+    margin-top: 0.6rem;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .container {
+    background-color: bisque;
+  }
+
+  .container.recipe {
+    background-color: darksalmon;
+    border-radius: 20% 30% 15% 34%;
+
+  }
+
